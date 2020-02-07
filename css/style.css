@@ -5,9 +5,19 @@
  *
  * Made By MaterializeCSS.com
  */
+@font-face {
+  src: url(./../fonts/segoesc.ttf);
+  font-family: segoesc;
+}
+
+#always-here {
+  font-family: segoesc;
+}
+
 .icon-block {
   padding: 0 15px;
 }
+
 .icon-block .material-icons {
 	font-size: inherit;
 }
@@ -22,7 +32,7 @@ nav {
 }
 
 #jumbo-image {
-	width: 100%;
+	  width: 100%;
     background-color: yellow; 
     background-image: url('./images/jumbo-image2.png');
     background-position: center;
@@ -43,3 +53,336 @@ nav {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+.bg-yellow {
+    background-color: #FFCE2B;
+  }
+  .no-padding {
+    padding: 0px !important;
+  }
+  .no-margin-bottom {
+    margin-bottom: 0px !important;
+  }
+  .align-vertical {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+  }
+  .fast-approval {
+    font-size: 64px;
+  }
+  @media only screen and (max-width: 992px) {
+    .md-bg-yellow {
+      background-color: #FFCE2B;
+    }
+    p {
+      line-height: 1.5
+    }
+    .fast-approval {
+      font-size: 40px;
+    }
+  }
+
+/*Galaxy S5*/
+  @media only screen and (min-width: 320px) and (max-width: 414px) {
+    body {
+      width: 905px;
+      overflow-x: hidden;
+    }
+
+    #index-body {
+      height: 100vh !important;
+    }
+
+    #index-logo {
+      margin-right: 670px;
+    }
+
+    .index-jumbo {
+      height: 55vh;
+      width: 1000px !important;
+    }
+
+    nav {
+      width: 1000px;
+      height: 100px;
+    }
+
+    #small-screen-logo {
+      margin-right: 655px;
+    }
+    #small-screen-background {
+      width: 500px;
+      background-color: black;
+    }
+  
+    #always-here {
+      font-size: 50px !important;
+      position: absolute !important;
+      right: 300px !important;
+      width: 500px !important;
+      height: 100px !important;
+    }
+
+    #postition-for-always-here {
+      position: absolute;
+      left: -320px;
+      top: -10px;
+    }
+
+    #small-screen-btn {
+      height: 70px !important;
+      width: 250px !important;
+      position: absolute !important;
+      right: 10px !important;
+    }
+
+    #footer-small-screens {
+      height: 200px !important;
+    }
+
+    #header-small-screens {
+      font-size: 26px;
+    }
+
+    #safe-secure {
+      margin-bottom: 10px;
+    }
+
+    .index-footer {
+      height: 100vh;
+      width: 1000px;
+    }
+
+    .faq-jumbo {
+      margin-top: 50px;
+      height: 85vh;
+    }
+
+    .faq-logo {
+      margin-right: 750px !important;
+    }
+
+   /* .index-how-does-it-work {
+      position: absolute;
+      right: 80px;
+      margin-right: 0px;
+    }
+
+    .index-faq {
+      position: absolute;
+      right: -100px;
+      top: -10px !important;
+      margin-right: 0px;
+    }*/
+  }
+/*End of Galaxy S5*/
+
+/*Mobile Large*/
+ @media only screen and (min-width: 425px) and (max-width: 767px) {
+  body {
+    width: 1000px;
+  }
+
+  nav {
+    height: 100px;
+    width: 1655px;
+  }
+
+   #small-screen-logo {
+      margin-right: 900px;
+      margin-bottom: 50px !important;
+    }
+
+  #footer-small-screens {
+    height: 230px !important;
+  }
+
+  .index-jumbo {
+    height: 55vh;
+    width: 1655px !important;
+  }
+
+  #index-logo {
+      margin-right: 1350px;
+    }
+
+     .faq-jumbo {
+      height: 75vh;
+    }
+
+    .faq-logo {
+      margin-right: 900px !important;
+    }
+
+    #postition-for-always-here {
+      position: absolute;
+      left: -320px;
+      top: -10px;
+    }
+
+    #always-here {
+      font-size: 50px !important;
+      position: absolute !important;
+      right: 300px !important;
+      width: 500px !important;
+      height: 100px !important;
+    }
+
+    .index-footer {
+      width: 1655px;
+    }
+
+    #index-p {
+      position: absolute;
+      left: 700px;
+      width: 700px;
+    }
+ }
+/*End of Mobile Large*/
+
+/*Tablet style*/
+@media only screen and (min-width: 768px) and (max-width: 960px) { 
+  nav {
+    width: 1000px;
+    height: 8vh;
+  }
+  #footer-small-screens {
+    height: 170px !important;
+  }
+
+   #header-small-screens {
+      font-size: 20px;
+    }
+
+     #small-screen-logo {
+      margin-right: 700px;
+      margin-bottom: 50px !important;
+    }
+
+    .index-jumbo {
+    height: 55vh;
+    width: 1000px !important;
+  }
+
+  nav {
+    height: 12vh;
+  }
+
+     .index-jumbo {
+    height: 55vh !important;
+  }
+
+  #index-logo {
+    margin-right: 700px;
+  }
+
+  .faq-logo {
+    margin-right: 700px;
+  }
+
+  .faq-jumbo {
+    height: 75vh;
+  }
+
+  #postition-for-always-here {
+      position: absolute;
+      left: -320px;
+      top: -10px;
+    }
+
+    #always-here {
+      font-size: 40px !important;
+      position: absolute !important;
+      right: 300px !important;
+      width: 500px !important;
+      height: 100px !important;
+    }
+
+    .homepage-span {
+      font-size: 35px !important;
+    }
+
+    .homepage-faq {
+      margin-left: 65px;
+    }
+
+    #homepage-how-to-loan {
+      position: absolute;
+      left: 10px;
+      top: 3300px;
+    }
+
+    .page-footer {
+      width: 100%;
+    }
+
+      .index-footer {
+      width: 1000px;
+    }
+
+     .index-how-does-it-work {
+      position: absolute;
+      right: 80px;
+    }
+
+    .index-faq {
+      position: absolute;
+      right: -100px;
+      top: -10px !important;
+    }
+}
+/*end of tablet*/
+
+/*Laptop Style*/
+@media only screen and (min-width: 1024px) { 
+  #footer-small-screens {
+    height: 180px !important;
+  }
+   #header-small-screens {
+      font-size: 20px;
+    }
+
+    .index-jumbo {
+    height: 55vh;
+  }
+
+  .index-faq {
+    margin-right: 0px !important;
+  }
+
+  .faq-body {
+    overflow-x: hidden;
+    /*width: 1000px !important;*/
+  }
+
+  .faq-footer {
+    /*width: 1000px !important;*/
+  }
+
+  .faq-jumbo {
+    height: 75vh;
+  }
+
+/*  #homepage-how-to-loan {
+      position: absolute;
+      left: 10px;
+      top: 3300px;
+    }*/
+
+     #postition-for-always-here {
+      position: absolute;
+      left: -300px;
+      top: -10px;
+    }
+
+     #always-here {
+      font-size: 40px !important;
+      position: absolute !important;
+      right: 300px !important;
+      width: 500px !important;
+      height: 100px !important;
+    }
+
+}
+/*End Laptop Style*/
