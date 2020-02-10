@@ -86,12 +86,13 @@ nav {
 /*Galaxy S5*/
   @media only screen and (min-width: 320px) and (max-width: 414px) {
     body {
-      width: 905px;
+      width: 1100px;
       overflow-x: hidden;
     }
 
     #index-body {
-      height: 100vh !important;
+      /*height: 100vh !important;*/
+       width: 1000px;
     }
 
     #index-logo {
@@ -103,9 +104,14 @@ nav {
       width: 1000px !important;
     }
 
-    nav {
-      width: 1000px;
+    #homepage-nav {
+      width: 1100px;
       height: 100px;
+    }
+
+    #index-nav {
+     width: 1000px;
+     height: 100px; 
     }
 
     #small-screen-logo {
@@ -163,35 +169,45 @@ nav {
       margin-right: 750px !important;
     }
 
-   /* .index-how-does-it-work {
+    .index-homepage-link-1 {
       position: absolute;
       right: 80px;
       margin-right: 0px;
     }
 
-    .index-faq {
+    .index-homepage-link-2 {
       position: absolute;
-      right: -100px;
-      top: -10px !important;
+      right: -10px;
+      top: -1px !important;
       margin-right: 0px;
-    }*/
+    }
+
+    #faq-nav {
+      width: 1100px;
+    }
+
+    .index-2-position {
+      position: absolute;
+      left: 850px; 
+    }
+
+    .index-1-position {
+      position: absolute;
+      left: 500px;
+    }
   }
 /*End of Galaxy S5*/
 
 /*Mobile Large*/
  @media only screen and (min-width: 425px) and (max-width: 767px) {
-  body {
-    width: 1000px;
-  }
-
-  nav {
-    height: 100px;
-    width: 1655px;
+  .faq-body {
+    width: 1200px;
   }
 
    #small-screen-logo {
-      margin-right: 900px;
+      margin-right: 850px;
       margin-bottom: 50px !important;
+      margin-left: 240px;
     }
 
   #footer-small-screens {
@@ -238,11 +254,47 @@ nav {
       left: 700px;
       width: 700px;
     }
+
+    .index-homepage-link-1 {
+      position: absolute;
+      right: 80px;
+      margin-right: 0px;
+    }
+
+    .index-homepage-link-2 {
+      position: absolute;
+      right: -10px;
+      top: -1px !important;
+      margin-right: 0px;
+    }
+
+    #index-nav {
+     width: 1650px;
+     height: 100px; 
+    }
+
+    .homepage-body {
+      width: 1100px;
+    }
+
+    #homepage-nav {
+    height: 100px;
+    width: 900px;
+  }
  }
 /*End of Mobile Large*/
 
 /*Tablet style*/
 @media only screen and (min-width: 768px) and (max-width: 960px) { 
+   #homepage-nav {
+    height: 100px;
+    width: 100%;
+  }
+
+  .homepage-body {
+    width: 135%;
+  }
+
   nav {
     width: 1000px;
     height: 8vh;
@@ -274,7 +326,9 @@ nav {
   }
 
   #index-logo {
-    margin-right: 700px;
+    position: absolute;
+    right: 270px;
+    margin-right: 0px;
   }
 
   .faq-logo {
@@ -310,7 +364,7 @@ nav {
     #homepage-how-to-loan {
       position: absolute;
       left: 10px;
-      top: 3300px;
+      top: 3100px;
     }
 
     .page-footer {
@@ -328,9 +382,34 @@ nav {
 
     .index-faq {
       position: absolute;
-      right: -100px;
+      right: 0px;
       top: -10px !important;
     }
+
+    .index-homepage-link-1 {
+      position: absolute;
+      right: 80px;
+      margin-right: 0px;
+    }
+
+    .index-homepage-link-2 {
+      position: absolute;
+      right: -10px;
+      top: -1px !important;
+      margin-right: 0px;
+    }
+
+    .faq-body {
+      width: 1100px;
+    }
+
+     #faq-nav {
+      width: 1100px;
+     }
+
+     #index-body {
+      width: 1000px;
+     }
 }
 /*end of tablet*/
 
@@ -382,6 +461,19 @@ nav {
       right: 300px !important;
       width: 500px !important;
       height: 100px !important;
+    }
+
+    .index-homepage-link-1 {
+      position: absolute;
+      right: 80px;
+      margin-right: 0px;
+    }
+
+    .index-homepage-link-2 {
+      position: absolute;
+      right: -10px;
+      top: -1px !important;
+      margin-right: 0px;
     }
 
 }
