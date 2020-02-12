@@ -161,7 +161,7 @@ nav {
     }
 
     .faq-jumbo {
-      margin-top: 50px;
+      /*margin-top: 50px;*/
       height: 85vh;
     }
 
@@ -281,6 +281,9 @@ nav {
     height: 100px;
     width: 900px;
   }
+    #index-body {
+      width: 1500px;
+    }
  }
 /*End of Mobile Large*/
 
